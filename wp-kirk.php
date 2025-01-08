@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name: WP Kirk Boilerplate
+ * Plugin Name: WP Kirk Blade Boilerplate
  * Plugin URI: https://github.com/wpbones/WPKirk-Boilerplate
- * Description: WP Bones Boilerplate WordPress plugin
+ * Description: WP Bones Blade Boilerplate WordPress plugin
  * Version: 1.8.0
  * Requires at least: 6.2
  * Requires PHP: 7.4

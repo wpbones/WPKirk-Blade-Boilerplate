@@ -1,18 +1,18 @@
-=== WP Kirk Boilerplate ===
+=== WP Kirk Blade Boilerplate ===
 Contributors: gfazioli
 Donate link: https://wpbones.com/
 Tags: template, wpbones
 Requires at least: 6.2
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: 1.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Bones Boilerplate WordPress plugin.
+WP Bones Blade Boilerplate WordPress plugin.
 
 == Description ==
 
-WP Bones Boilerplate plugin
+WP Bones Blade Boilerplate plugin
 
 == Installation ==
 

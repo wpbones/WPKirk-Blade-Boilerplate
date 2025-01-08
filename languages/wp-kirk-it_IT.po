@@ -1,11 +1,11 @@
-# Copyright (C) 2024 Giovambattista Fazioli
+# Copyright (C) 2025 Giovambattista Fazioli
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Kirk Boilerplate 1.6.0\n"
+"Project-Id-Version: WP Kirk Blade Boilerplate 1.8.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-kirk\n"
-"POT-Creation-Date: 2024-11-12T12:11:09+00:00\n"
-"PO-Revision-Date: 2024-11-12 13:11+0100\n"
+"POT-Creation-Date: 2025-01-08T10:13:49+00:00\n"
+"PO-Revision-Date: 2025-01-08 11:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -17,8 +17,8 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: wp-kirk.php
-msgid "WP Kirk Boilerplate"
-msgstr "WP Kirk Boilerplate"
+msgid "WP Kirk Blade Boilerplate"
+msgstr "WP Kirk Blade Boilerplate"
 
 #. Plugin URI of the plugin
 #: wp-kirk.php
@@ -27,8 +27,8 @@ msgstr "https://github.com/wpbones/WPKirk-Boilerplate"
 
 #. Description of the plugin
 #: wp-kirk.php
-msgid "WP Bones Boilerplate WordPress plugin"
-msgstr "WP Bones Boilerplate Plugin WordPress"
+msgid "WP Bones Blade Boilerplate WordPress plugin"
+msgstr "WP Bones Blade Boilerplate Plugin WordPress"
 
 #. Author of the plugin
 #: wp-kirk.php
@@ -40,22 +40,70 @@ msgstr "Giovambattista Fazioli"
 msgid "https://wpbones.com/"
 msgstr "https://wpbones.com/"
 
-#: resources/views/dashboard/index.php:13
-msgid "Config Menu"
-msgstr "Menu di configurazione"
+#: resources/views/dashboard/index.blade.php:15
+msgid "Overview"
+msgstr "Panoramica"
 
-#: resources/views/dashboard/index.php:17
+#: resources/views/dashboard/index.blade.php:17
+msgid ""
+"Starting from version 1.4.0, you can use blade templates in your plugin."
+msgstr ""
+"A partire dalla versione 1.4.0, è possibile utilizzare i modelli di blade "
+"nel plug-in."
+
+#: resources/views/dashboard/index.blade.php:18
+msgid "In this example, we are going to use Blade templates in our plugin."
+msgstr "In questo esempio, utilizzeremo i modelli Blade nel nostro plugin."
+
+#: resources/views/dashboard/index.blade.php:22
+msgid "We're using the"
+msgstr "Stiamo utilizzando il metodo"
+
+#: resources/views/dashboard/index.blade.php:22
+msgid ""
+"template engine. BladeOne is a standalone version of Blade Template Engine "
+"that uses a single PHP file and can be ported and used in different "
+"projects. It allows you to use blade template outside Laravel."
+msgstr ""
+"motore di modelli. BladeOne è una versione standalone di Blade Template "
+"Engine che utilizza un singolo file PHP e può essere convertito e utilizzato "
+"in diversi progetti. Ti consente di utilizzare il modello di lama "
+"all'esterno di Laravel."
+
+#: resources/views/dashboard/index.blade.php:24
+msgid ""
+"BladeOne is a standalone version of Blade Template Engine that uses a single "
+"PHP file and can be ported and used in different projects. It allows you to "
+"use blade template outside Laravel."
+msgstr ""
+"BladeOne è una versione standalone di Blade Template Engine che utilizza un "
+"singolo file PHP e può essere convertito e utilizzato in diversi progetti. "
+"Ti consente di utilizzare il modello di lama all'esterno di Laravel."
+
+#: resources/views/dashboard/index.blade.php:28
 msgid "Controller"
 msgstr "Controllore"
 
-#: resources/views/dashboard/index.php:25
-msgid "PHP Version"
-msgstr "Versione PHP"
+#: resources/views/dashboard/index.blade.php:31
+msgid ""
+"You can use the usual views structure, `/resources/views/index.blade.php`."
+msgstr ""
+"È possibile utilizzare la solita struttura delle visualizzazioni, '/"
+"resources/views/index.blade.php'."
 
-#: resources/views/dashboard/index.php:29
-msgid "ReactJS Application"
-msgstr "Applicazione ReactJS"
+#: resources/views/dashboard/index.blade.php:35
+msgid "Blade Output"
+msgstr "Blade Output"
 
-#: public/apps/app.js:1
-msgid "Say Hello, WP Bones Application"
-msgstr "Saluta, Applicazione WP Bones"
+#: resources/views/dashboard/index.blade.php:43
+#: resources/views/dashboard/index.blade.php:44
+msgid "For more information, please visit the"
+msgstr "Per ulteriori informazioni, visitare il sito"
+
+#: resources/views/dashboard/index.blade.php:43
+#: resources/views/dashboard/index.blade.php:44
+msgid "Wiki pages."
+msgstr "Pagine wiki."
+
+#~ msgid "Say Hello, WP Bones Application"
+#~ msgstr "Saluta, Applicazione WP Bones"
